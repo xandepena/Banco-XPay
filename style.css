@@ -1,0 +1,44 @@
+body {
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-family: roboto;
+}
+h2{
+  color: white;
+}
+
+.saldo {
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.transacoes button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: green;
+}
+
+.transacoes button:hover {
+    background-color: #0056b3;
+}
